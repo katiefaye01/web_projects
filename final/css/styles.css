@@ -3,8 +3,23 @@
     margin: 0;
 }
 
+h2, h3 {
+    font-family: "Delius Swash Caps", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
 body {
-    background-color: #35478C;
+    background-color: #B080F2;
+    font-family: "Delius", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.audio_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 img {
@@ -14,7 +29,7 @@ img {
 }
 
 a {
-    color: #16193B;
+    color: #035AA6;
 }
 
 a:hover {
@@ -24,12 +39,13 @@ a:hover {
 /* Mobile Styles */
 
 #container {
-    border: 4px solid #16193B;
+    border: 4px solid #BD24BF;
     width: 65%;
     margin: 20px auto;
-    border: 4px solid #330136;
+    border: 4px solid #BD24BF;
     padding: 20px;
     border-radius: 20px;
+    background-color: #A2C5F2;
 }
 
 nav {
@@ -47,22 +63,22 @@ nav li {
 
 nav li a {
     display: block;
-    background-color: #4E7AC7;
+    background-color: #B080F2;
     height: 40px;
     line-height: 40px;
     text-decoration: none;
     font-size: 25px;
-    border-bottom: 4px solid #16193B;
+    border-bottom: 4px solid #B527F2;
 }
 
 main h2 {
     text-align: center;
-    color: #16193B;
+    color: #252273;
 }
 
 main h3 {
     text-align: center;
-    color: #16193B;
+    color: #252273;
 }
 
 nav li a:hover {
@@ -92,33 +108,26 @@ footer {
     text-align: center;
 }
 
-iframe {
-    display: block;
-    margin: 20px auto;
-    width: 65%;
-    height: 450px;
-}
-
 .step1_content {
     text-align: center;
 }
 
 .img_style {
     width: 75%;
-    border: 2px solid #330136;
+    border: 2px solid #B527F2;
     border-radius: 10px;
-    box-shadow: 2px 2px 5px #330136;
+    box-shadow: 2px 2px 5px #B527F2;
     margin-top: 20px;
     margin-bottom: 20px;
 }
 
 hr {
-    border: 1px solid #330136;
+    border: 1px solid #BD24BF;
 }
 
 section, aside {
     border-radius: 10px;
-    border: 2px solid #330136;
+    border: 2px solid #BD24BF;
     margin: 20px;
     padding: 20px;
 }
@@ -129,7 +138,7 @@ section, aside {
 @media (min-width: 768px) {
    nav {
     padding: 10px 0;
-    border-bottom: 4px solid #16193B;
+    border-bottom: 4px solid #BD24BF;
    }
    
     nav li {
@@ -156,7 +165,7 @@ section, aside {
     #container {
     width: 65%;
     margin: 20px auto;
-    background-color: #47647D;
+    background-color: #A2C5F2;
 }
 
 .gallery {
@@ -164,7 +173,7 @@ section, aside {
 }
 
 .col {
-    border: 2px solid #16193B;
+    border: 2px solid #BD24BF;
     margin: 10px;
     padding: 10px;
     border-radius: 10px;
